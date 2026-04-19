@@ -1,4 +1,5 @@
 import { coreConcepts, techStack } from "../data/tech.js";
+import { techIcons } from "../data/techIcons.jsx";
 
 export default function TechStack() {
   return (
@@ -32,10 +33,14 @@ export default function TechStack() {
             key={t.name}
             className="w-24 h-24 flex flex-col justify-center items-center border border-border rounded-xl gap-2 bg-card hover:border-accent-yellow/40 hover:shadow-[0_4px_15px_rgba(202,138,4,0.1)] transition-all duration-300 hover:-translate-y-1"
           >
-            <div
-              className="w-8 h-8 rounded-md"
-              style={{ backgroundColor: t.color + "22", border: `1px solid ${t.color}44` }}
-            />
+            <div className="w-10 h-10 flex items-center justify-center">
+              {techIcons[t.name] || (
+                <div
+                  className="w-8 h-8 rounded-md"
+                  style={{ backgroundColor: t.color + "22", border: `1px solid ${t.color}44` }}
+                />
+              )}
+            </div>
             <p className="text-xs text-center leading-tight">{t.name}</p>
           </div>
         ))}

@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import TechStack from "./components/TechStack.jsx";
 import Services from "./components/Services.jsx";
 import Projects from "./components/Projects.jsx";
+import Achieve from "./components/Achieve.jsx";
 import Footer from "./components/Footer.jsx";
 import FadeIn from "./components/FadeIn.jsx";
 
@@ -39,6 +40,7 @@ export default function App() {
         <FadeIn><TechStack /></FadeIn>
         <FadeIn><Services /></FadeIn>
         <FadeIn><Projects /></FadeIn>
+        <FadeIn><Achieve /></FadeIn>
         <FadeIn><Footer /></FadeIn>
       </main>
     </div>

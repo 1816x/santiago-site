@@ -23,4 +23,8 @@ export const techStack = [
   { name: "Claude AI", color: "#D4A574" },
   { name: "Vite", color: "#646CFF" },
   { name: "Framer Motion", color: "#FF0055" },
+  { name: "AWS", color: "#F7A80D" },
+  { name: "Azure", color: "#0078D4" },
+  { name: "Java", color: "#EA2D2E" },
+  { name: "Swift", color: "#F05138" },
 ];
