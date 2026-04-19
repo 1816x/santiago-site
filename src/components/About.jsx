@@ -20,14 +20,22 @@ export default function About() {
               Freelance Full-Stack Engineer · Monterrey, Mexico
             </p>
             <p className="text-muted text-sm sm:text-base mt-4 leading-relaxed max-w-2xl">
-              I don&apos;t write code by hand anymore. I architect systems, prompt AI,
-              and review the output. My workflow runs on Claude, and it lets me
-              handle SaaS development, client work, and automation simultaneously.
-              Stack-agnostic, but I default to TypeScript + Next.js when there&apos;s
-              no strong reason to pick something else.
+              I design and build scalable, production-grade software systems that
+              solve real business problems and drive measurable outcomes.
             </p>
             <p className="text-muted text-sm sm:text-base mt-3 leading-relaxed max-w-2xl">
-              Currently building a multi-agent WhatsApp system for small businesses
+              I specialize in full-stack development, system architecture, and
+              high-leverage solutions that streamline operations, reduce complexity,
+              and enable growth. My approach balances performance, reliability, and
+              long-term maintainability.
+            </p>
+            <p className="text-muted text-sm sm:text-base mt-3 leading-relaxed max-w-2xl">
+              I work with modern web technologies — primarily TypeScript — delivering
+              end-to-end systems from architecture to deployment with a strong focus
+              on execution quality.
+            </p>
+            <p className="text-muted text-sm sm:text-base mt-3 leading-relaxed max-w-2xl">
+              Currently building a multi-agent WhatsApp platform for small businesses
               while studying at Universidad Tecmilenio.
             </p>
           </div>
