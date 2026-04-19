@@ -1,0 +1,26 @@
+export const coreConcepts = [
+  "Full-Stack Architecture",
+  "AI-First Development",
+  "Workflow Automation",
+  "Database Design",
+  "Performance Optimization",
+];
+
+export const techStack = [
+  { name: "TypeScript", color: "#3178C6" },
+  { name: "React", color: "#61DAFB" },
+  { name: "Next.js", color: "#ffffff" },
+  { name: "Node.js", color: "#339933" },
+  { name: "Python", color: "#3776AB" },
+  { name: "PostgreSQL", color: "#4169E1" },
+  { name: "MongoDB", color: "#47A248" },
+  { name: "N8N", color: "#EA4B71" },
+  { name: "Tailwind CSS", color: "#06B6D4" },
+  { name: "Prisma", color: "#2D3748" },
+  { name: "Docker", color: "#2496ED" },
+  { name: "Git", color: "#F05032" },
+  { name: "Vercel", color: "#ffffff" },
+  { name: "Claude AI", color: "#D4A574" },
+  { name: "Vite", color: "#646CFF" },
+  { name: "Framer Motion", color: "#FF0055" },
+];
